@@ -1,0 +1,108 @@
+@font-face {
+	font-family:'CenturyGothic-Regular';
+	src: url('../fonts/CenturyGothic_gdi.eot');
+	src: url('../fonts/CenturyGothic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CenturyGothic_gdi.woff') format('woff'),
+		url('../fonts/CenturyGothic_gdi.ttf') format('truetype'),
+		url('../fonts/CenturyGothic_gdi.svg#CenturyGothic-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-F003;
+}
+body.ytrp-thirdpage { margin:0px; background:#c1ebeb; font-family:'CenturyGothic-Regular';line-height:normal;}
+.ytrp-thirdpage .header { width:100%; background:#fff; padding:15px 0px;}
+.ytrp-thirdpage .container { width:100%; max-width:1085px; margin:0 auto; padding:0px 15px;}
+.ytrp-thirdpage .logo { width:27%; float:left;}
+.ytrp-thirdpage .logo img { max-width:100%; height:auto;}
+.ytrp-thirdpage .head-right { width:63%; float:right; font-family:'CenturyGothic-Regular'; font-size:32px; padding-top:10px;}
+.ytrp-thirdpage .head-right span { color:#ff0000; text-decoration:underline;}
+.ytrp-thirdpage .clr { clear:both;} 
+.ytrp-thirdpage .text-center { text-align:center;}
+.ytrp-thirdpage .contain-wrap { background:#fff; -webkit-box-shadow: 0px 0px 5px 0px rgba(163,163,163,1); -moz-box-shadow: 0px 0px 5px 0px rgba(163,163,163,1); box-shadow: 0px 0px 5px 0px rgba(163,163,163,1); width:965px; padding:20px 60px; text-align:center; margin:25px auto 10px; border-radius:10px; -moz-border-radius:30px; -webkit-border-radius:30px;}
+
+.ytrp-thirdpage .contain-wrap p { margin:0px; line-height:24px; font-size:16px; color:#000; padding-bottom:20px;}
+
+.ytrp-thirdpage .url { font-size:20px; line-height:30px;}
+.ytrp-thirdpage .url strong { text-decoration:underline;}
+.ytrp-thirdpage .redirect { position:relative; margin-top:35px; background:#e7e7e7; position:relative; font-size:40px; color:#000; text-align:center; width:100%; padding:17px 0px;}
+.ytrp-thirdpage .redirect span { background:#32bebd; color:#fff; padding:5px 10px 5px 5px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.ytrp-thirdpage .redirect:before { content:''; position:absolute; background:url(../images/arrow-back.jpg) no-repeat; top:0px; left:0px; width:41px; height:82px;}
+.ytrp-thirdpage .redirect:after { content:''; position:absolute; background:url(../images/arrow-right.jpg) no-repeat; top:-22px; right:0px; width:58px; height:124px;}
+
+.ytrp-thirdpage .button-sec { padding:20px 0px; margin:50px auto 30px; border:5px dotted; width:97%; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.ytrp-thirdpage .button-sec p { margin:0px; text-align:center; padding-bottom:30px; font-size:34px; color:#ff0000;}
+.ytrp-thirdpage .button-sec a { font-size:34px;}
+.ytrp-thirdpage .agree { background:#0cb127; text-align:center; padding:10px 40px 15px; color:#fff; text-decoration:none; display:inline-block; margin-right:10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; margin-bottom:10px;} 
+.ytrp-thirdpage .agree:hover { transition:all ease 0.5s; background:#E6E6E6; color:#089d20;}
+.ytrp-thirdpage .reject { background:#ff0000; text-align:center; padding:10px 40px 15px; color:#fff; text-decoration:none; display:inline-block; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; }
+.ytrp-thirdpage .reject:hover { transition:all ease 0.5s; background:#E6E6E6; color: #ef0000;}
+
+.ytrp-thirdpage .note { border:4px solid #000; margin:30px 0px 20px; text-align:center; position:relative;}
+.ytrp-thirdpage .note p { font-size:18px; line-height:26px; padding:25px 40px;}
+.ytrp-thirdpage .note:before { content:'Note'; position:absolute; left:10px; top:-15px; font-size:20px; font-weight:bold; background:#fff; padding:0px 10px;}
+.ytrp-thirdpage .copy { padding:10px 0px 15px; text-align:center; width:auto; margin:0 auto; font-size:14px; color:#6a6a6a;}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+	.ytrp-thirdpage .container { width:auto; max-width:none; padding:0px 32px;}
+	.ytrp-thirdpage .head-right { width:69%; text-align:right; font-size:36px;}	
+	.ytrp-thirdpage .contain-wrap { width:85%;}
+	.ytrp-thirdpage .button-sec p { font-size:30px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.ytrp-thirdpage .container { width:auto; max-width:none; padding:0px 32px;}
+	.ytrp-thirdpage .head-right { width:69%; text-align:right; font-size:26px; padding-top:2%;}	
+	.ytrp-thirdpage .contain-wrap { width:85%; padding:20px 30px;}
+	.ytrp-thirdpage .button-sec p { font-size:30px; line-height:40px;}
+	.ytrp-thirdpage .button-sec a { font-size:26px;}
+	.ytrp-thirdpage .url { font-size:18px;}
+	.ytrp-thirdpage .redirect { font-size:28px;}
+	.ytrp-thirdpage .redirect::before { background-size:84%;}
+	.ytrp-thirdpage .redirect::after { background-size:84%; right:-10px;}
+}
+@media only screen and (min-width: 641px) and (max-width:767px) {
+
+	.ytrp-thirdpage .container { width:auto; max-width:none; padding:0px 22px;}
+	.ytrp-thirdpage .head-right { width:69%; text-align:right; font-size:22px; padding-top:2%;}	
+	.ytrp-thirdpage .contain-wrap { width:85%; padding:20px 30px;}
+	.ytrp-thirdpage .button-sec p { font-size:30px; line-height:40px;}
+	.ytrp-thirdpage .button-sec a { font-size:26px;}
+	.ytrp-thirdpage .url { font-size:15px;}
+	.ytrp-thirdpage .redirect { font-size:23px;}
+	.ytrp-thirdpage .redirect::before { background-size:77%;}
+	.ytrp-thirdpage .redirect::after { background-size:80%; right:-15px;}
+}
+@media only screen and (min-width: 481px) and (max-width:640px) {
+
+	.ytrp-thirdpage .container { width:auto; max-width:none; padding:0px 22px;}
+	.ytrp-thirdpage .head-right { width:69%; text-align:right; font-size:16px; padding-top:2%;}	
+	.ytrp-thirdpage .contain-wrap { width:85%; padding:20px 15px;}
+	.ytrp-thirdpage .button-sec {border: 3px dotted;}
+	.ytrp-thirdpage .button-sec p { font-size:24px; line-height:32px;}
+	.ytrp-thirdpage .button-sec a { font-size:18px;}
+	.ytrp-thirdpage .url { font-size:15px; line-height:20px;}
+	.ytrp-thirdpage .redirect { font-size:16px;}
+	.ytrp-thirdpage .redirect::before { background-size:66%;}
+	.ytrp-thirdpage .redirect::after { background-size:80%; right:-15px;}
+	.ytrp-thirdpage .agree {padding: 10px 40px 12px;}
+	.ytrp-thirdpage .reject {padding: 10px 40px 12px;}
+}
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+	.ytrp-thirdpage .logo { text-align:center; width:100%; margin:0 auto 10px;}
+	.ytrp-thirdpage .logo img { width:50%;}
+	.ytrp-thirdpage .container { width:auto; max-width:none; padding:0px 22px;}
+	.ytrp-thirdpage .head-right { width:100%; text-align:center; font-size:15px; padding-top:2%;}	
+	.ytrp-thirdpage .contain-wrap { width:85%; padding:20px 15px;}
+	.ytrp-thirdpage .button-sec {border: 3px dotted;}
+	.ytrp-thirdpage .button-sec p { font-size:24px; line-height:32px;}
+	.ytrp-thirdpage .button-sec a { font-size:18px;}
+	.ytrp-thirdpage .url { font-size:15px; line-height:20px;}
+	.ytrp-thirdpage .redirect { font-size:16px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+	.ytrp-thirdpage .redirect::before { background:none; left:0px; top:0px;}
+	.ytrp-thirdpage .redirect::after { background:none; right:0px; top:0px;}
+	.ytrp-thirdpage .agree {padding: 10px 40px 12px; margin-left:10px;}
+	.ytrp-thirdpage .reject {padding: 10px 40px 12px;}
+}
